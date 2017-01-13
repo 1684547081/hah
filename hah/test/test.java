@@ -10,16 +10,15 @@ import org.hibernate.cfg.Configuration;
  */
 public class test {
     public static void main(String[] args) {
-
         Session session= tool.getSession();
-        //开始事务（怎删改操作必须，查询可选）
+        //zzzzzzzzzzzzzzz
        Transaction ts= session.beginTransaction();
-        //数据库操作
-        //修改
+        //数据库操作sadad
+        //修改哈哈
 //        User user= session.get(User.class,3);
 //        user.setName("wwwww");
 //        session.update(user);
-        //添加j
+        //添加
         User user =new User();
         user.setName("1");
         user.setPwd("a");
